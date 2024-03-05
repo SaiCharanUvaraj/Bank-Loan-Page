@@ -1,0 +1,63 @@
+body
+{
+    background-color:#548CA8;
+}
+.navbar
+{
+    background: linear-gradient(to right,#334257,#476072);
+    box-shadow: 3px 3px 10px 0 black;
+}
+.navbar-brand
+{
+    font-size: xx-large;
+}
+.active-link
+{
+    background-color:#476072;
+    color: white;
+    font-size:large;
+    border:0vw;
+}
+.nav-link
+{
+    font-size: large;
+    background-color: transparent;
+    color: white;
+    border-radius:1vw;
+    transition:0.5s;
+}
+.nav-link:hover
+{
+    color:black;
+    text-decoration: underline;
+    border-radius:1vw;
+    transition:0.5s;
+}
+.dropdown-menu
+{
+    background-color:#334257;
+    border: 0.1vw black solid;
+}
+.dropdown-item
+{
+    font-size: small;
+    color: #EEEEEE;
+    transition:0.5s;
+}
+.dropdown-item:hover
+{
+    background-color:#476072;
+    color: #EEEEEE;
+    transition:0.5s;
+    transition:0.5s;
+}
+.footer
+{
+    background:linear-gradient(to right,#476072,#334257);
+    color:#EEEEEE;
+    font-size: small;
+}
+.footer-item
+{
+    font-size: small;
+}

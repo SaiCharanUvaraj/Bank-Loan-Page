@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loans</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="NavbarFooter.css">
+    <link rel="stylesheet" href="LoanTable.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="me-3">
+                <center>
+                    <p class="m-0 p-2 navbar-brand"> Bank Logo </p>
+                </center>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="m-1"><button class="nav-link p-2" aria-current="page" href="">Home</button></li>
+                    <li class="nav-item dropdown m-1">
+                        <button class="nav-link dropdown-toggle p-2" href="" id="navbarDropdownMenuLink" role="button" 
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Accounts
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="">Savings Account</a></li>
+                            <li><a class="dropdown-item" href="">Business Account</a></li>
+                            <li><a class="dropdown-item" href="">Salary Account</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown m-1">
+                        <button class="nav-link dropdown-toggle p-2" href="" id="navbarDropdownMenuLink" role="button" 
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Payments
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="">Bill Payments</a></li>
+                            <li><a class="dropdown-item" href="">UPI payments</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown m-1">
+                        <button class="nav-link dropdown-toggle p-2" href="" id="navbarDropdownMenuLink" role="button" 
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Cards
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="">Debit card</a></li>
+                            <li><a class="dropdown-item" href="">Credit Card</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item m-1"><a class="nav-link p-2" aria-current="page" href="SignIn.html">Log in</a></li>
+                    <li class="nav-item m-1"><a class="nav-link p-2" aria-current="page" href="SignUpPersonalInfo.html">Create Account</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid loan-table">
+        <div class="row loan-row gx-0 gy-0">
+            <div class="card loan col-lg-3 col-sm-6 col-12">
+                <div class="loan-title card-header rounded-top-5">
+                    <center>Personal Loan</center>
+                </div>
+                <div class="loan-body card-body rounded-bottom-5">
+                    <center>
+                        <p class="loan-description card-text"> Get instant financial freedom in your life with our Personal Loans.Use 
+                                them for life's important moments, from weddings to emergencies and be secure in life.</p>
+                        <button class="explore-button btn rounded-5"> Explore </button>
+                        <button class="apply-button btn rounded-5"> Apply </button>
+                        <img class="loan-image card-img-bottom rounded-5" src="Images/PersonalLoan.jpg">
+                    </center>
+                </div>
+            </div>
+            <div class="card loan col-lg-3 col-sm-6 col-12">
+                <div class="loan-title card-header rounded-top-5">
+                    <center>Education Loan</center>
+                </div>
+                <div class="loan-body card-body rounded-bottom-5">
+                    <center>
+                        <p class="loan-description card-text"> Invest in boosting knowledge with our Education Loans to get lifetime turn-overs. 
+                            Achieve your educational goals and reach peaks without financial stress.</p>
+                            <button class="explore-button btn rounded-5"> Explore </button>
+                            <button class="apply-button btn rounded-5"> Apply </button>
+                        <img class="loan-image card-img-bottom rounded-5" src="Images/EducationLoan.jpg">
+                    </center>
+                </div>
+            </div>
+            <div class="card loan col-lg-3 col-sm-6 col-12">
+                <div class="loan-title card-header rounded-top-5">
+                    <center>Vehicle Loan</center>
+                </div>
+                <div class="loan-body card-body rounded-bottom-5">
+                    <center>
+                        <p class="loan-description card-text">Get behind the wheels of your dreams with our Vehicle Loans. Our 
+                            vehicle loans are affordable and it is very easy to obtain auto financing.</p>
+                            <button class="explore-button btn rounded-5"> Explore </button>
+                            <button class="apply-button btn rounded-5"> Apply </button>
+                        <img class="loan-image card-img-bottom rounded-5" src="Images/VehicleLoan.jpg">
+                    </center>
+                </div>
+            </div>
+            <div class="card loan col-lg-3 col-sm-6 col-12">
+                <div class="loan-title card-header rounded-top-5">
+                    <center>Business Loan</center>
+                </div>
+                <div class="loan-body card-body rounded-bottom-5">
+                    <center>
+                        <p class="loan-description card-text"> Empower your entrepreneurship skills and achieve your business dreams 
+                            with our Business Loans. Boost your business and reach new heights. </p>
+                            <button class="explore-button btn rounded-5"> Explore </button>
+                            <button class="apply-button btn rounded-5"> Apply </button>
+                        <img class="loan-image card-img-bottom rounded-5" src="Images/BusinessLoan.jpg">
+                    </center>
+                </div>
+            </div>
+        </div>
+        <div class="loan-row row gx-0 gy-0">
+            <div class="card loan col-lg-3 col-sm-6">
+                <div class="loan-title card-header rounded-top-5">
+                    <center>Gold Loan</center>
+                </div>
+                <div class="loan-body card-body rounded-bottom-5">
+                    <center>
+                        <p class="loan-description"> Turn your resting gold in your lockers into your future with our Gold Loans.
+                            Turn your gold assets into cash at ease. Quick and reliable financing at your disposal.</p>
+                            <button class="explore-button btn rounded-5"> Explore </button>
+                            <button class="apply-button btn rounded-5"> Apply </button>
+                        <img class="loan-image card-img-bottom rounded-5" src="Images/GoldLoan.jpg">
+                    </center>
+                </div>
+            </div>
+            <div class="card loan col-lg-3 col-sm-6">
+                <div class="loan-title card-header rounded-top-5">
+                    <center>Health Loan</center>
+                </div>
+                <div class="loan-body card-body rounded-bottom-5">
+                    <center>
+                        <p class="loan-description card-text">Prioritize and secure your wellness with our helping Health Loans. 
+                            Access quality healthcare and medication without financial worries.</p>
+                            <button class="explore-button btn rounded-5"> Explore </button>
+                            <button class="apply-button btn rounded-5"> Apply </button>
+                        <img class="loan-image card-img-bottom rounded-5" src="Images/HealthLoan.jpg">
+                    </center>
+                </div>
+            </div>
+            <div class="card loan col-lg-3 col-sm-6">
+                <div class="loan-title card-header rounded-top-5">
+                    <center>Pension Loan</center>
+                </div>
+                <div class="loan-body card-body rounded-bottom-5">
+                    <center>
+                        <p class="loan-description card-text">Enjoy rest of your golden years with our Pension Loans. 
+                            Be secure during your retirement years with financial comfort. Secure your post-career lifestyle.</p>
+                            <button class="explore-button btn rounded-5"> Explore </button>
+                            <button class="apply-button btn rounded-5"> Apply </button>
+                        <img class="loan-image card-img-bottom rounded-5" src="Images/PensionLoan.jpg">
+                    </center>
+                </div>
+            </div>
+            <div class="card loan col-lg-3 col-sm-6">
+                <div class="loan-title card-header rounded-top-5">
+                    <center>Farm Loan</center>
+                </div>
+                <div class="loan-body card-body rounded-bottom-5">
+                    <center>
+                        <p class="loan-description card-text">Cultivate your future with our helping Farm Loans.
+                                Nurture your agricultural endeavors without any worries. Grow your farm with financial support.</p>
+                                <button class="explore-button btn rounded-5"> Explore </button>
+                                <button class="apply-button btn rounded-5"> Apply </button>
+                        <img class="loan-image card-img-bottom rounded-5" src="Images/FarmLoan.jpg">
+                    </center>
+                </div>
+            </div>
+        </div>
+        <div class="loan-row row gx-0 gy-0">
+            <div class="card loan col-lg-3 col-sm-6">
+                <div class="loan-title card-header rounded-top-5">
+                    <center>Travel Loan</center>
+                </div>
+                <div class="loan-body card-body rounded-bottom-5">
+                    <center>
+                        <p class="loan-description">Explore the corners of the world today with our Travel Loans. 
+                            Explore the world with ease. Turn your travel dreams into unforgettable moments.</p>
+                            <button class="explore-button btn rounded-5"> Explore </button>
+                            <button class="apply-button btn rounded-5"> Apply </button>
+                        <img class="loan-image card-img-bottom rounded-5" src="Images/TravelLoan.jpg">
+                    </center>
+                </div>
+            </div>
+            <div class="card loan col-lg-3 col-sm-6">
+                <div class="loan-title card-header rounded-top-5">
+                    <center>Salary Loan</center>
+                </div>
+                <div class="loan-body card-body rounded-bottom-5">
+                    <center>
+                        <p class="loan-description card-text">Bridge the gap between paydays with our Salary Loans. 
+                            Bridge the financial gaps between paychecks. Quick and confidential solutions for unexpected expenses.</p>
+                            <button class="explore-button btn rounded-5"> Explore </button>
+                            <button class="apply-button btn rounded-5"> Apply </button>
+                        <img class="loan-image card-img-bottom rounded-5" src="Images/SalaryLoan.jpg">
+                    </center>
+                </div>
+            </div>
+            <div class="card loan col-lg-3 col-sm-6">
+                <div class="loan-title card-header rounded-top-5">
+                    <center>Property Loan</center>
+                </div>
+                <div class="loan-body card-body rounded-bottom-5">
+                    <center>
+                        <p class="loan-description card-text">Sculpt your future from your property with our Property Loans. 
+                            Leverage your property's value. Access substantial funds using real estate as collateral.</p>
+                            <button class="explore-button btn rounded-5"> Explore </button>
+                            <button class="apply-button btn rounded-5"> Apply </button>
+                        <img class="loan-image card-img-bottom rounded-5" src="Images/PropertyLoan.jpg">
+                    </center>
+                </div>
+            </div>
+            <div class="card loan col-lg-3 col-sm-6">
+                <div class="loan-title card-header rounded-top-5">
+                    <center>Home Loan</center>
+                </div>
+                <div class="loan-body card-body rounded-bottom-5">
+                    <center>
+                        <p class="loan-description card-text">Open the door to your dreams with our Home Loans, where homeownership begins.
+                            Experience the joy of your sweet home with affordable financing from our bank.</p>
+                            <button class="explore-button btn rounded-5"> Explore </button>
+                            <button class="apply-button btn rounded-5"> Apply </button>
+                        <img class="loan-image card-img-bottom rounded-5" src="Images/HomeLoan.jpg">
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid footer p-3">
+        <div class="container">
+            <hr>
+            <footer class="row">
+                <div class="col-3">
+                    <center>
+                        <p class="h1"> Bank Logo </p>
+                    </center>
+                </div>
+                <div class="col-3">
+                    <center>
+                    <p class="h5">Bank</p>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-1"><a href="" class="nav-link p-0 footer-item">Home</a></li>
+                        <li class="nav-item mb-1"><a href="" class="nav-link p-0 footer-item">Accounts</a></li>
+                        <li class="nav-item mb-1"><a href="" class="nav-link p-0 footer-item">Payments</a></li>
+                        <li class="nav-item mb-1"><a href="" class="nav-link p-0 footer-item">Loans</a></li>
+                        <li class="nav-item mb-1"><a href="" class="nav-link p-0 footer-item">About us</a></li>
+                    </ul>
+                    </center>
+                </div>
+                <div class="col-3">
+                    <center>
+                    <p class="h5">Popular Services</p>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-1"><a href="" class="nav-link p-0 footer-item">Savings Account</a></li>
+                        <li class="nav-item mb-1"><a href="" class="nav-link p-0 footer-item">Money Transfer</a></li>
+                        <li class="nav-item mb-1"><a href="" class="nav-link p-0 footer-item">Fixed Deposit</a></li>
+                        <li class="nav-item mb-1"><a href="" class="nav-link p-0 footer-item">Credit Card</a></li>
+                    </ul>
+                    </center>
+                </div>
+                <div class="col-3">
+                    <center>
+                    <p class="h5">Popular Loans</p>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-1"><a href="" class="nav-link p-0 footer-item">Personal Loan</a></li>
+                        <li class="nav-item mb-1"><a href="" class="nav-link p-0 footer-item">Home Loan</a></li>
+                        <li class="nav-item mb-1"><a href="" class="nav-link p-0 footer-item">Education Loan</a></li>
+                        <li class="nav-item mb-1"><a href="" class="nav-link p-0 footer-item">Vehicle Loan</a></li>
+                    </ul>
+                    </center>
+                </div>
+            </footer>
+            <hr>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
